@@ -1,7 +1,37 @@
 # VisionTurret-CascadeDetection-CppOpenCV
+ВВЕДЕНИЕ
 Одна из первых версий программы.
 v1.0-1.2 не добавил.
 v2.0 отключена.
-
 Лучше всего перейти с каскадных моделей на нейросетевых (darknet/YOLO). 
 Каскадные модели показали себя не эффективнее, так как в тени или в ярком освещении не детектит, но зато данный способ более компактной. 
+
+КОНТРОЛЬ ВЕРСИЙ
+1. Операционная система >> Windows 10
+2. Среда разработки >> Visual Studio 2022 Community Edition >> https://visualstudio.microsoft.com/ru/vs/community/
+3. Библиотека OpenCV >> opencv-4.12.0-windows >> https://github.com/opencv/opencv/releases/tag/4.12.0
+4. Каскад для детекции лиц >> haarcascade_profileface.xml >> https://github.com/austinjoyal/haar-cascade-files/blob/master/haarcascade_profileface.xml
+5. Каскад всего тело >> haarcascade_fullbody.xml >> https://github.com/opencv/opencv/blob/4.x/data/haarcascades/haarcascade_frontalface_default.xml
+6. Альтернативный каскад с улучшенной точностью >> haarcascade_frontalface_alt.xml >> https://github.com/austinjoyal/haar-cascade-files/blob/master/haarcascade_frontalface_alt.xml
+7. Оптимизированный каскад для детекции лиц >> haarcascade_frontalface_alt2.xml >> https://github.com/austinjoyal/haar-cascade-files/blob/master/haarcascade_frontalface_alt2.xml
+
+КАЧЕСТВО КАСКАДОВ
+1. haarcascade_profileface.xml & haarcascade_frontalface_alt.xml = 2/5
+2. haarcascade_frontalface_alt.xml & haarcascade_frontalface_default.xml = 3.5/5
+3. haarcascade_frontalface_alt2.xml & haarcascade_frontalface_default.xml = 3/5
+4. haarcascade_profileface.xml & haarcascade_frontalface_default.xml = 2.5/5
+5. haarcascade_profileface.xml & haarcascade_frontalface_alt2.xml = 1/5
+
+Команды для консоли:
+1.	/start 
+2.	/stop
+3.	/info
+4.	/help
+5.	/setTarget
+6.	/getTarget
+7.	/setMode
+8.	/getMode
+9.	/setDelay
+10.	/getDelay
+11.	/setStartDelay
+12.	/getStartDelay
