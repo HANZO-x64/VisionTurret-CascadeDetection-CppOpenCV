@@ -1,6 +1,6 @@
 # VisionTurret-CascadeDetection-CppOpenCV
 ВВЕДЕНИЕ
-Одна из первых версий программы.
+Загружена на GitHub v1.3 - она одна из первых версий программы. Работает на 2 каскадных моделей + есть управление консолькой.
 v1.0-1.2 не добавил.
 v2.0 отключена.
 Лучше всего перейти с каскадных моделей на нейросетевых (darknet/YOLO). 
@@ -22,7 +22,7 @@ v2.0 отключена.
 4. haarcascade_profileface.xml & haarcascade_frontalface_default.xml = 2.5/5
 5. haarcascade_profileface.xml & haarcascade_frontalface_alt2.xml = 1/5
 
-Команды для консоли:
+КОМАНДЫ ДЛЯ КОНСОЛИ
 1.	/start 
 2.	/stop
 3.	/info
